@@ -93,3 +93,229 @@ E:\Project\lw3.io.dao>git push --help
 operable program or batch file.
 
 E:\Project\lw3.io.dao>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Project\lw3.io.dao>git status
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Project\lw3.io.dao>git status
+On branch trunk
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\Project\lw3.io.dao>git add .
+
+E:\Project\lw3.io.dao>git status
+On branch trunk
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal-commands.txt
+
+
+E:\Project\lw3.io.dao>git commit -m "terminal-commands"
+[trunk 2c19b72] terminal-commands
+ 1 file changed, 95 insertions(+)
+
+E:\Project\lw3.io.dao>git status
+On branch trunk
+nothing to commit, working tree clean
+
+E:\Project\lw3.io.dao>git push -u origin trunk
+To https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+ ! [rejected]        trunk -> trunk (fetch first)
+error: failed to push some refs to 'https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\lw3.io.dao>git push --help
+The system cannot find the file C:/Apps ^& Softwares/Git/mingw64/share/doc/git-doc/git-push.html.
+
+E:\Project\lw3.io.dao>git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 672 bytes | 26.00 KiB/s, done.
+From https://github.com/suvrajeet01/lw3.io-dao.jnr_ens
+ * [new branch]      trunk      -> origin/trunk
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trunk
+
+
+E:\Project\lw3.io.dao>git push -u origin trunk
+To https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+ ! [rejected]        trunk -> trunk (non-fast-forward)
+error: failed to push some refs to 'https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\lw3.io.dao>git pull https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git trunk
+From https://github.com/suvrajeet01/lw3.io-dao.jnr_ens
+ * branch            trunk      -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+E:\Project\lw3.io.dao>git push -u origin trunk
+To https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+ ! [rejected]        trunk -> trunk (non-fast-forward)
+error: failed to push some refs to 'https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\lw3.io.dao>git fetch origin trunk
+From https://github.com/suvrajeet01/lw3.io-dao.jnr_ens
+ * branch            trunk      -> FETCH_HEAD
+
+E:\Project\lw3.io.dao>git merge origin trunk
+merge: origin - not something we can merge
+
+E:\Project\lw3.io.dao>git merge trunk
+Already up to date.
+
+E:\Project\lw3.io.dao>git status
+On branch trunk
+nothing to commit, working tree clean
+
+E:\Project\lw3.io.dao>git push -u origin trunk
+To https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+ ! [rejected]        trunk -> trunk (non-fast-forward)
+error: failed to push some refs to 'https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\lw3.io.dao>git push
+fatal: The current branch trunk has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin trunk
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+E:\Project\lw3.io.dao>git push --set-upstream origin trunk
+To https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+ ! [rejected]        trunk -> trunk (non-fast-forward)
+error: failed to push some refs to 'https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\Project\lw3.io.dao>git pull --rebase
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> trunk
+
+
+E:\Project\lw3.io.dao>git branch
+* trunk
+
+E:\Project\lw3.io.dao>git pull(1)
+git: 'pull(1)' is not a git command. See 'git --help'.
+
+E:\Project\lw3.io.dao>git-pull(1)
+'git-pull' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Project\lw3.io.dao>git fetch
+
+E:\Project\lw3.io.dao>git log --oneline --decorate
+2c19b72 (HEAD -> trunk) terminal-commands
+f6829e1 ens
+
+E:\Project\lw3.io.dao>git log --oneline
+2c19b72 (HEAD -> trunk) terminal-commands
+f6829e1 ens
+
+E:\Project\lw3.io.dao>.git remote -v
+'.git' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Project\lw3.io.dao>git remote -v
+origin  https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git (fetch)
+origin  https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git (push)
+
+E:\Project\lw3.io.dao>
