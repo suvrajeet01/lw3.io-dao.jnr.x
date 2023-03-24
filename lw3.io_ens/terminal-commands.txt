@@ -1,0 +1,576 @@
+Microsoft Windows [Version 10.0.19045.2673]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Project\lw3.io_ens>npx create-next-app@latest
+Need to install the following packages:
+  create-next-app@13.2.4
+Ok to proceed? (y)
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in E:\Project\lw3.io_ens\my-app.
+
+Using npm.
+
+Initializing project with template: default
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+
+added 17 packages, and audited 18 packages in 2m
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created my-app at E:\Project\lw3.io_ens\my-app
+
+
+E:\Project\lw3.io_ens>cd my-app
+
+E:\Project\lw3.io_ens\my-app>npm install web3modal
+
+added 58 packages, and audited 76 packages in 14s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+E:\Project\lw3.io_ens\my-app>npm install ethers@5
+
+added 45 packages, and audited 121 packages in 19s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+E:\Project\lw3.io_ens\my-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E:\Project\lw3.io_ens\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+event - compiled client and server successfully in 17.2s (170 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 4.5s (325 modules)
+Terminate batch job (Y/N)?
+y
+
+E:\Project\lw3.io_ens\my-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E:\Project\lw3.io_ens\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+event - compiled client and server successfully in 17.2s (170 modules)
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 4.5s (325 modules)
+Terminate batch job (Y/N)?
+y
+
+E:\Project\lw3.io_ens\my-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@suvrajeet01 
+suvrajeet01
+/
+lw3.io-dao.jnr_ens
+Public
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Quick setup — if you’ve done this kind of thing before
+or	
+https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# lw3.io-dao.jnr_ens" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M trunk
+git remote add origin https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+git push -u origin trunk
+…or push an existing repository from the command line
+git remote add origin https://github.com/suvrajeet01/lw3.io-dao.jnr_ens.git
+git branch -M trunk
+git push -u origin trunk
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+ ProTip! Use the URL for this page when adding GitHub as a remote.
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+New File
